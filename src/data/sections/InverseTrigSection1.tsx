@@ -325,7 +325,13 @@ export const section1Blocks: ReactElement[] = [
     <StackLayout key="layout-s1-problem" maxWidth="2xl">
         <Block id="block-s1-problem-text" padding="sm">
             <EditableParagraph id="para-s1-problem" blockId="block-s1-problem-text">
-                Now imagine a different scenario: You're given that <InlineFormula latex="\sin(\theta) = 0.5" colorMap={{}} />, but you don't know what angle <InlineFormula latex="\theta" colorMap={{}} /> is. How do you find it?
+                Now imagine a different scenario: You're given that <InlineFormula latex="\sin(\theta) = 0.5" colorMap={{}} />, but you don't know what angle <InlineFormula latex="\theta" colorMap={{}} /> is. How do you find it?{" "}
+                {"  "}
+                <InlineFormula latex="\sin(\theta) = 0.5" colorMap={{}} color="#000000" />
+                {"  "}
+                <InlineFormula latex="\theta" colorMap={{}} color="#000000" />
+                {"  "}
+                <InlineScrubbleNumber defaultValue={10} min={0} max={100} step={1} varName="var_inlineScrubbleNumber-1771941254021" />
             </EditableParagraph>
         </Block>
     </StackLayout>,
