@@ -307,6 +307,12 @@ export const section1Blocks: ReactElement[] = [
         </Block>
     </SplitLayout>,
 
+    <StackLayout key="layout-block-1771941171733" maxWidth="xl">
+        <Block id="block-1771941171733" padding="sm">
+            <hr className="my-6 border-t border-gray-200" />
+        </Block>
+    </StackLayout>,
+
     // The problem statement
     <StackLayout key="layout-s1-problem-title" maxWidth="2xl">
         <Block id="block-s1-problem-title" padding="md">
